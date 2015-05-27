@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>深度网络</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="kexuan" type="boolean" value="true" -->
+</head>
+
+<style>
+.link1{
+	text-decoration:none;
+	color:#0F6;
+	font-weight:600;
+	font-family:"黑体";
+	font-size:24px;
+}
+.link1:hover{
+	color:#F00;
+}
+.link2{
+	color:#333;
+	text-decoration:none;
+	margin-left:10px;
+}
+.link2:hover{
+	background-color:;
+}
+.link3{
+	font-family:"华文楷体";
+	text-decoration:none;
+	color:#3CF;
+	mamargin-left:20px;
+}
+.link3:hover{
+	color:#3FF;
+}
+</style>
+
+<body style="background-color:#CCC;">
+<!-- TemplateBeginIf cond="kexuan" -->
+<div>
+  <table border="0" cellpadding="0" cellspacing="0" width="1024px" style="margin-left:auto; margin-right:auto; background-color:#69C;">    
+    <tr bgcolor="#009999" height=135px>
+      <td width="185px" rowspan="4"><img src="../images/logo.jpg" height="135" width="135" style="margin-left:50px" /></td>
+      <td>
+      <div align="center">
+      		<p style="font-family:'华文行楷'; font-size:36px; color:#FFFFFF; margin-top:0px;" >上海理工大学深度网络社团</p>
+      </div>
+      <div style="margin-left:50px">
+        	<a href="http://www.baidu.com" class="link1">&nbsp;首页&nbsp;</a>|
+        	<a href="http://www.baidu.com" class="link1">&nbsp;社团介绍&nbsp;</a>|
+        	<a href="http://www.baidu.com" class="link1">&nbsp;学习交流&nbsp;</a>|
+	        <a href="http://www.baidu.com" class="link1">&nbsp;资源下载&nbsp;</a>|
+    	    <a href="http://www.baidu.com" class="link1">&nbsp;个人中心&nbsp;</a>    
+      </div>
+     </td>
+     </tr>
+  	</table>
+  
+  <table border="0" cellpadding="0" cellspacing="0" style="background-color:#cff; width:1024px;margin-left:auto; height:auto; margin-right:auto;">  
+  <tr> 
+  <!-- TemplateBeginEditable name="link-space" -->
+    <td valign="top" style="width:200px; min-height:500px;float:left;">
+    
+    <table height="20px">
+    </table>
+    
+    <table border="0" cellpadding="0" cellspacing="0">
+      <tr height="18px">
+        <td><a href="#" class="link2">在此处插入一级链接</a></td>
+      </tr>
+    </table>   
+    
+     <table border="0" cellpadding="0" cellspacing="0">
+        <tr height="16px">
+          <td style="width:30px;"></td>
+          <td><a href="#" class="link3">在此处插入二级链接</a></td>
+        </tr>
+      </table>
+      
+     <table border="0" cellpadding="0" cellspacing="0">
+        <tr height="16px">
+          <td style="width:30px;"></td>
+          <td><a href="#" class="link3">在此处插入二级链接</a></td>
+        </tr>
+      </table>      
+      
+    <table border="0" cellpadding="0" cellspacing="0">
+      <tr height="18px">
+        <td><a href="#" class="link2">在此处插入一级链接</a></td>
+      </tr>
+    </table>       
+    
+     <table border="0" cellpadding="0" cellspacing="0">
+        <tr height="16px">
+          <td style="width:30px;"></td>
+          <td><a href="#" class="link3">在此处插入二级链接</a></td>
+        </tr>
+      </table>     
+            
+    </td>
+    <!-- TemplateEndEditable -->
+    <td style="background-image:url(../images/line-y.bmp); background-repeat:repeat-y; width:2px;">
+    </td>
+    <!-- TemplateBeginEditable name="main-space" -->
+    <td style="width:822px; min-height:500px; margin-right:0px;" valign="top">
+      <p>在这里添加你的面的内容<br />
+        注意：请在本区域有你自己内容的情况下再删除本行内容，否则可能会有意想不到的情况出现</p>
+    </td>
+    <!-- TemplateEndEditable -->
+    </tr>
+    
+  </table>
+  
+</div>
+<!-- TemplateEndIf -->
+</body>
+</html>
