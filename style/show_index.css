@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+.join_step
+{
+	margin-left:100px;
+	font-family:"黑体";
+	font-size:18px;
+}
+
+.news_txt
+{
+	font-family:"宋体";
+	padding-left:30px;
+	padding-right:30px;
+	text-align:left;
+	text-indent:30px;/*首行缩进30像素*/
+	line-height:30px;/*设置行间距*/
+}
+
+.beizhu_txt
+{
+	font-family:"黑体";
+	font-weight:bolder;
+	font-size:14px;
+	text-align:center;
+	margin:0;
+}
+.news_img
+{
+	width:600px;
+	height:350px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0;
+}
+
+.txt_box
+{
+	text-align:left;
+}

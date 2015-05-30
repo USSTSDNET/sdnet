@@ -1,0 +1,74 @@
+﻿fafsasfd
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch dev
+# Your branch is up-to-date with 'origin/dev'.
+#
+# Changes to be committed:
+#	deleted:    .gitignore
+#	deleted:    Javascript/index.js
+#	deleted:    SpryAssets/SpryMenuBar.js
+#	deleted:    SpryAssets/SpryMenuBarDown.gif
+#	deleted:    SpryAssets/SpryMenuBarDownHover.gif
+#	deleted:    SpryAssets/SpryMenuBarHorizontal.css
+#	deleted:    SpryAssets/SpryMenuBarRight.gif
+#	deleted:    SpryAssets/SpryMenuBarRightHover.gif
+#	deleted:    Templates/page.dwt
+#	deleted:    download/resource.txt
+#	deleted:    download/yangkung.txt
+#	deleted:    example/jstest.html
+#	deleted:    example/temp-exam.html
+#	deleted:    images/jwc1.png
+#	deleted:    images/line-y.bmp
+#	deleted:    images/link_tubiao.png
+#	deleted:    images/logo.jpg
+#	deleted:    images/logo.png
+#	deleted:    images/logo1.png
+#	deleted:    images/logo2.jpg
+#	deleted:    images/news-1.jpg
+#	deleted:    images/news-2.jpg
+#	deleted:    images/news-3.jpg
+#	deleted:    images/news-4.jpg
+#	deleted:    images/point_l.jpg
+#	deleted:    images/point_r.jpg
+#	deleted:    images/usst_gis.png
+#	deleted:    images/usst_link.png
+#	deleted:    images/usst_logo.png
+#	deleted:    images/usst_vpn.png
+#	deleted:    images/usst_xxmh.png
+#	deleted:    images/usst_yb.png
+#	deleted:    images/usst_yjxt.png
+#	deleted:    images/usstgw.png
+#	deleted:    images/xuxian.png
+#	deleted:    index.html
+#	deleted:    others/design.jpg
+#	deleted:    readme.txt
+#	deleted:    show_society/activity.html
+#	deleted:    show_society/charter.html
+#	deleted:    show_society/charter_.html
+#	deleted:    show_society/effect-3.html
+#	deleted:    show_society/effect.html
+#	deleted:    show_society/show_index.html
+#	deleted:    study_exchange/DW_learning.html
+#	deleted:    study_exchange/study_exchange_index.html
+#	deleted:    study_exchange/tj_1.html
+#	deleted:    study_exchange/tj_2.html
+#	deleted:    style/index.css
+#
+# Untracked files:
+#	.gitignore
+#	Javascript/
+#	SpryAssets/
+#	Templates/
+#	download/
+#	example/
+#	images/
+#	index.html
+#	news/
+#	others/
+#	readme.txt
+#	show_society/
+#	study_exchange/
+#	style/
+#
+
