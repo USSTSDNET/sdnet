@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录</title>
+</head>
+<style type="text/css">
+#button{
+	margin-left:60px;
+	opacity:0.6;
+}
+#button:hover{
+	opacity:1.0;
+	background-color:#0FC;
+}
+#button2{
+	margin-right:20px;
+	opacity:0.6;
+}
+#button2:hover{
+	opacity:1.0;
+	background-color:#0FC;
+}
+</style>
+<script language="javascript">
+function ba()
+{
+	this.location.href='login.html';
+}
+function inde()
+{
+	this.location.href='../index.html';
+}
+function f()
+{
+	document.write("<div align='center' style='margin-top:200px; position:absolute; z-index:1000; left:480px; top:52px; width:225px; height:100px; background-color:#CCC;'>\
+	<p>账号或密码错误！</p>\
+	<div style='margin-top:10px;'><input type='submit' name='button2' id='button2' onclick='inde()' value='返回主页' />\
+	<input type='submit' name='button2' onclick='ba()' id='button2' value='重新输入' />\
+	</div></div>");
+}
+</script>
+
+<body>
+<div align="center" style="margin-top: 200px; position: absolute; z-index: 1001; left: 480px; top: 52px; width: 225px;">
+<form id="form1" name="form1" method="post" action="">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>账号：<input /></td>
+    </tr>
+  <tr>
+    <td>密码：<input type="password" /></td>
+    </tr>
+  <tr>
+    <td>
+    </td>
+    </tr>
+  <tr>
+    <td><input type="reset" name="button" id="button" value="重置" />
+      <input type="submit" name="button2" id="button2" onclick="f()" value="提交" />
+      </td>
+  </tr>
+</table>
+</form>
+
+
+</div>
+<div align="center" style="margin-top: 200px; position: absolute; z-index: 1000; left: 441px; top: -12px;">
+<p><img style="opacity:0.3;" src="../images/login_bg.png" width="300" height="179" /></p>
+</div>
+</body>
+</html>
