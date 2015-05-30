@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 #news_img{
 	position:relative;
 	z-index:0;
@@ -7,7 +9,6 @@
 	
 #body_div{
 	width: 1024px;
-	min-height: 900px; 
 	background-color: #FFF; 
 	margin-left: auto; 
 	margin-right: auto; 
@@ -48,6 +49,18 @@
 #banner ul li.on{ background-color:#900}
 #banner_list a{position:absolute;} <!-- 让四张图片都可以重叠在一起-->
 
+.xuxian
+{
+	background-image:url(../images/xuxian.png);
+	background-repeat:repeat-x;
+	width:300px;
+}
+
+.link_tubiao
+{
+	margin-left:30px;
+	opacity:0.5;
+}
 .tubiao
 {
 	margin:0;
@@ -57,13 +70,22 @@
 
 .line_y
 {
-	width:5px;
+	width:50px;
 	background-image:url(../images/line-y.bmp);
 	background-repeat:repeat-y;
 }
 
 .point{
 	position:absolute;
+}
+
+#head_link
+{
+	color:#FFF;
+}
+#head_link:hover
+{
+	color:#FFF;
 }
 
 .link1{
@@ -76,6 +98,7 @@
 .link1:hover{
 	color:#F00;
 }
+
 .link2{
 	color:#333;
 	text-decoration:none;
@@ -93,6 +116,25 @@
 .link3:hover{
 	color:#3FF;
 }
+
+.link4{
+	font-family:"黑体";
+	font-weight:bolder;
+	color:#00F;
+}
+.link4:hover
+{
+	padding:10px;
+	background-color:#CCC;
+}
+
+.link5
+{
+	width:300px;
+	white-space:nowrap;
+	overflow:scroll;
+}
+
 .text1{
 	font-family:"黑体";
 }
