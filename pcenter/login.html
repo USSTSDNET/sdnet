@@ -4,6 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>登录</title>
 </head>
+<script>
+
+</script>
 <style type="text/css">
 #button{
 	margin-left:60px;
@@ -23,14 +26,16 @@
 }
 </style>
 <script language="javascript">
+
 function ba()
 {
-	this.location.href='login.html';
+	this.location.href='http://www.denetwork.org/pcenter/login.html';
 }
 function inde()
 {
-	this.location.href='../index.html';
+	this.location.href='http://www.denetwork.org/index.html';
 }
+
 function f()
 {
 	document.write("<div align='center' style='margin-top:200px; position:absolute; z-index:1000; left:480px; top:52px; width:225px; height:100px; background-color:#CCC;'>\
@@ -39,6 +44,30 @@ function f()
 	<input type='submit' name='button2' onclick='ba()' id='button2' value='重新输入' />\
 	</div></div>");
 }
+
+function delay(sec)
+{
+	var time=new Date();
+	var m=time.getMinutes();
+	var s=time.getSeconds();
+	while(1)
+	{
+		var ti=new Date();
+		var m_=ti.getMinutes();
+		var s_=ti.getSeconds();
+		if(((m_-m)*60+s_-s)>=sec)
+		{
+			break;
+		}
+	}
+}
+
+function cuowu()
+{
+	delay(2);
+	alert("账号或密码错误");
+}
+
 </script>
 
 <body>
@@ -56,8 +85,8 @@ function f()
     </td>
     </tr>
   <tr>
-    <td><input type="reset" name="button" id="button" value="重置" />
-      <input type="submit" name="button2" id="button2" onclick="f()" value="提交" />
+    <td><input type="reset" name="button" id="button" onclick="" value="重置" />
+      <input type="submit" name="button2" id="button2" onclick="cuowu()" value="提交" />
       </td>
   </tr>
 </table>
