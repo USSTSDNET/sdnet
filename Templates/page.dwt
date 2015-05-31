@@ -8,6 +8,7 @@
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 <!-- TemplateParam name="kexuan" type="boolean" value="true" -->
+<link href="../style/show_index.css" rel="stylesheet" type="text/css" />
 </head>
 
 
@@ -66,7 +67,7 @@
       <div style="margin-left:50px">
         	<a href="../index.html" class="link1">&nbsp;首页&nbsp;</a>|
         	<a href="../show_society/show_index.html" class="link1">&nbsp;社团介绍&nbsp;</a>|
-        	<a href="../study_exchange/study_exchange_index.html" class="link1">&nbsp;学习交流&nbsp;</a>|
+        	<a href="../pcenter/login.html" class="link1">&nbsp;学习交流&nbsp;</a>|
 	        <a href="../download/d_index.html" class="link1">&nbsp;资源下载&nbsp;</a>|
     	    <a href="../pcenter/login.html" class="link1">&nbsp;个人中心&nbsp;</a>    
       </div>
@@ -121,8 +122,13 @@
     </td>
     <!-- TemplateBeginEditable name="main-space" -->
     <td style="width:822px; min-height:500px; margin-right:0px; border-bottom:30px;" valign="top">
-      <p>在这里添加你的面的内容<br />
-        注意：请在本区域有你自己内容的情况下再删除本行内容，否则可能会有意想不到的情况出现</p>
+    
+    
+    <h2 align="center" style="margin-top:100px;">此页正在更新中，请下次再来！</h2>    
+    <div style="position: absolute; opacity: 0.5; left: 569px; top: 331px;">
+    <img src="../images/sorry.gif" width="128" height="128" /></div>
+    
+    
     </td>
     <!-- TemplateEndEditable -->
     </tr>
