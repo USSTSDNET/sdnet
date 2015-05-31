@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录</title>
+</head>
+<script>
+
+</script>
+<style type="text/css">
+#button{
+	margin-left:60px;
+	opacity:0.6;
+}
+#button:hover{
+	opacity:1.0;
+	background-color:#0FC;
+}
+#button2{
+	margin-right:20px;
+	opacity:0.6;
+}
+#button2:hover{
+	opacity:1.0;
+	background-color:#0FC;
+}
+</style>
+<script language="javascript">
+
+function delay(sec)
+{
+	var time=new Date();
+	var m=time.getMinutes();
+	var s=time.getSeconds();
+	while(1)
+	{
+		var ti=new Date();
+		var m_=ti.getMinutes();
+		var s_=ti.getSeconds();
+		if(((m_-m)*60+s_-s)>=sec)
+		{
+			break;
+		}
+	}
+}
+
+function cuowu()
+{
+	delay(2);
+	alert("账号或密码错误！");
+	top.location='http://www.denetwork.org/pcenter/login.html';
+}
+
+</script>
+
+<body>
+<div align="center" style="margin-top: 200px; position: absolute; z-index: 1001; left: 480px; top: 52px; width: 225px;">
+<form id="form1" name="form1" method="post" action="">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>账号：<input /></td>
+    </tr>
+  <tr>
+    <td>密码：<input type="password" /></td>
+    </tr>
+  <tr>
+    <td>
+    </td>
+    </tr>
+  <tr>
+    <td><input type="reset" name="button" id="button" value="重置" />
+      <input type="reset" name="button2" id="button2" onclick="cuowu()" value="提交" />
+      </td>
+  </tr>
+  <tr><td>
+  </td>
+  </tr>
+  <tr>
+  <td>
+  <a href="../index.html"><p align="right">返回首页</p></a>
+  </td>
+  </tr>
+</table>
+</form>
+
+
+</div>
+<div align="center" style="margin-top: 200px; position: absolute; z-index: 1000; left: 441px; top: -12px;">
+<p><img style="opacity:0.3;" src="../images/login_bg.png" width="300" height="179" /></p>
+</div>
+</body>
+</html>
